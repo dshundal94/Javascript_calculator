@@ -1,0 +1,79 @@
+#top {
+  text-align: center;
+  margin: 0 auto;
+}
+#title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+#logo {
+  font-family: Lato;
+  margin: 0 auto;
+}
+
+#calculator {
+  height: 370px;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 10px 50px 1px #888888;
+  padding-top: 10px;
+}
+
+#outputBox {
+  
+  width: 85%;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: white;
+}
+
+#entry {
+  font-family: Lato;
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.red {
+  background: rgb(255, 64, 53);
+}
+
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 2px 0px 0px #888888;
+}
+
+button:active {
+  transform: translate(0px, 2px);
+  box-shadow: none;
+}
+
+#equalSign {
+  width: 117px;
+  background: rgb(109, 44, 255);
+}
